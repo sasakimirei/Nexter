@@ -1,5 +1,7 @@
+@use "base";
+
 %heading {
-  font-family: $font-display;
+  font-family: base.$font-display;
   font-weight: 400;
 }
 
@@ -20,10 +22,10 @@
   font-size: 1.9rem;
 
   &--light {
-    color: $color-grey-light-1;
+    color: base.$color-grey-light-1;
   }
 
   &-dark {
-    color: $color-grey-dark-1;
+    color: base.$color-grey-dark-1;
   }
 }

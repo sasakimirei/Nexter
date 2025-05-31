@@ -1,3 +1,5 @@
+@use "base";
+
 .features {
   grid-column: center-start / center-end;
 
@@ -16,7 +18,7 @@
   gap: 1.5rem 2.5rem;
 
   &__icon {
-    fill: $color-primary;
+    fill: base.$color-primary;
     width: 4.5rem;
     height: 4.5rem;
     grid-row: 1 / span 2;
