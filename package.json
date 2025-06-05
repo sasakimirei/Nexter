@@ -6,7 +6,7 @@
   },
   "scripts": {
     "watch:sass": "sass sass/main.scss css/style.css -w",
-    "devserver": "live-server",
+    "devserver": "live-server --browser=CHROME",
     "start": "concurrently \"pnpm watch:sass\" \"pnpm devserver\""
   }
 }
